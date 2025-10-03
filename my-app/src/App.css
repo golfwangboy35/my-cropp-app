@@ -12,3 +12,22 @@
 .zoom-range {
     width: 200px;
 }
+.file-label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background: midnightblue;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 16px;
+}
+
+.setting-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-family: "Berlin Sans FB" ,sans-serif;
+}
